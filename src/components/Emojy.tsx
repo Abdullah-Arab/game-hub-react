@@ -19,3 +19,4 @@ const Emojy = ({ raiting }: Props) => {
 };
 
 export default Emojy;
+
