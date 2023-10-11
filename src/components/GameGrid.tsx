@@ -18,8 +18,8 @@ const GameGrid = () => {
           lg: 3,
           xl: 5,
         }}
-        spacing={16}
-        padding={10}
+        spacing={3}
+        padding={8}
       >
         {isLoading &&  skeletones.map(skeletone => <GameCardContainer><GameCardSkeletone key={skeletone}></GameCardSkeletone></GameCardContainer>)}
         {data.map((game) => (
