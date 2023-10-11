@@ -24,7 +24,7 @@ const GameGrid = ({selectedGenre}: Props) => {
           xl: 5,
         }}
         spacing={3}
-        padding={8}
+        paddingY={3}
       >
         {isLoading &&  skeletones.map(skeletone => <GameCardContainer key={skeletone}><GameCardSkeletone ></GameCardSkeletone></GameCardContainer>)}
         {data.map((game) => (
