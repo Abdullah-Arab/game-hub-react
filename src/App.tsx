@@ -71,6 +71,7 @@ function App() {
             selectedOrder={gameQuery.sortOrder}
           />
         </Flex>
+        <GameGrid gameQuery={gameQuery} />
       </GridItem>
     </Grid>
   );
